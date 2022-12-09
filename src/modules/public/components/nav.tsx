@@ -3,7 +3,6 @@ import ROUTES from "../../../url.links/public.routes";
 const Nav = () => {
   const navigation = [
     { name: "Services", href: ROUTES.SERVICE },
-
     { name: "Gallery", href: ROUTES.COMPANY },
     { name: "Contact", href: ROUTES.CONTACT },
   ];
@@ -17,7 +16,7 @@ const Nav = () => {
         <ul className=" absolute right-1 py-3 hidden md:flex flex-row">
           {navigation.map((item, i) => (
             <a
-              className="mx-1 px-6 text-2xl  tex-center  text-orange-600 hover:text-black font-bold"
+              className="mx-1 px-6 text-3xl tex-center text-orange-600 font-nunito font-bold hover:text-black "
               href={`${item.href}`}
               key={i}
             >
