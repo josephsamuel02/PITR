@@ -31,11 +31,11 @@ const Features = () => {
           ))}
       </div>
 
-      <div className=" md:mx-auto p-10 flex flex-row items-center justify-center">
+      <div className=" w-10/12 mx-auto md:mx-auto p-10 my-5 py-4 md:py-10 flex flex-row items-center justify-center bg-sky-300 rounded-lg">
         <span className="md:mx-1">
-          <MdLocationOn color="red" size={60} />
+          <MdLocationOn color="red" size={30} />
         </span>
-        <span className=" md:mx-0 md:text-center text-base text-black md:text-4xl font-roboto font-bold ">
+        <span className="  md:mx-0 md:text-center text-base text-black md:text-4xl font-roboto font-bold ">
           1 - 7 Otunba Adejonwo Street, Plywood junction, Epe, Lagos.
         </span>
       </div>
