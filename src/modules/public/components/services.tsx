@@ -1,8 +1,12 @@
+import { useState } from "react";
+import Contact from "../pages/contact";
+
 const Services = () => {
+  const [showContact, setShowContact] = useState(false);
   return (
     <>
-      <div id="service" className=" max-w-full mx-0  mt-0 pt-12 md:pt-52 bg-slate-50 ">
-        <h1 className=" mx-1 md:mx-12  p-0 md:p-3 text-5xl font-Palanquin font-bold text-indigo-600">
+      <div id="service" className=" max-w-full mx-0  mt-0 pt-12 md:pt-52 ">
+        <h1 className=" mx-3 md:mx-12 md:p-3 text-5xl md:text-6xl font-Palanquin font-bold text-orange-600">
           Guest Rooms
         </h1>
 
@@ -40,16 +44,16 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <a
+        {/* <a
           href="/gallery"
-          className="  mx-10 my-12 py-5 px-10 bg-indigo-600 hover:bg-purple-700 rounded  text-lg text-white  font-medium"
+          className=" mx-5 md:mx-10 my-12 py-5 px-16 bg-orange-600 hover:bg-indigo-800 rounded  text-lg text-white  font-medium"
         >
           Gallery
-        </a>
+        </a> */}
       </div>
 
-      <div className=" w-full mx-0 mt-34  pt-52 bg-slate-50 ">
-        <h1 className=" mx-1 md:mx-12  p-0 md:py-10 text-5xl font-Palanquin font-bold text-indigo-600">
+      <div className=" w-full mx-0 mt-34  pt-52  ">
+        <h1 className=" mx-3 md:mx-12 md:p-3 text-5xl md:text-6xl font-Palanquin font-bold text-orange-600">
           Event Halls
         </h1>
 
@@ -82,19 +86,30 @@ const Services = () => {
           </div>
         </div>
       </div>
-
-      <div className="w-full h-auto pt-24 p-1 flex flex-row md:fex-col bg-blue-50">
+      <h1 className=" mx-1 md:mx-12 pt-20 md:py-10 md:mt-32  text-5xl font-Palanquin font-bold text-orange-600">
+        Sports
+      </h1>
+      <div className="w-full h-auto pt-6 p-1 flex flex-row md:fex-col ">
         <div className="w-1/2 h-60  mx-3 p-0 flex flex-col-reverse bg-[url('/img/table_tenise.jpg')] bg-center bg-cover ">
-          <p className=" m-0 my-0 p-5 text-2xl  text-white  bg-opacity-20 bg-slate-900 ">
+          <p className=" m-0 my-0 p-5 text-xl font-courgette font-bold hover:text-4xl transition-all text-white  ">
             Table Tennis.
           </p>
         </div>
         <div className="w-1/2 h-60  mx-3 p-0 flex flex-col-reverse bg-[url('/img/long_tenise.jpg')] bg-center bg-cover ">
-          <p className=" m-0 my-0 p-5 text-2xl  text-white  bg-opacity-20 bg-slate-900 ">
+          <p className=" m-0 my-0 p-5 text-xl font-courgette font-bold hover:text-4xl transition-all text-white  ">
             Long Tennis Court.
           </p>
         </div>
       </div>
+      <div className="w-full h-auto mt-20 p-1 ">
+        <a
+          className="  mx-4 md:mx-10 py-5 px-12 bg-orange-600 hover:bg-indigo-800 rounded  text-lg text-white  font-medium"
+          onClick={() => setShowContact(!showContact)}
+        >
+          Contact Us
+        </a>
+      </div>
+      {showContact && <Contact setShowContact={setShowContact} />}
     </>
   );
 };
