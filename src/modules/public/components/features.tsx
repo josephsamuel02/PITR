@@ -1,7 +1,7 @@
 import { MdLocationOn } from "react-icons/md";
 const Features = () => {
   const illustrations = [
-    { icon: "undraw_blooming_re_2kc4.svg", title: "Friendly environment" },
+    { icon: "undraw_blooming_re_2kc4.svg", title: "Nice environment" },
     { icon: "undraw_wedding_re_66hj.svg", title: "   Perfect for events" },
     { icon: "undraw_relaxing_at_home_re_mror.svg", title: " For your retreats" },
     { icon: "undraw_delivery_truck_vt6p.svg", title: "Wide parking space" },

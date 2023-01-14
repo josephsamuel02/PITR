@@ -3,14 +3,14 @@ import { useState } from "react";
 const LandingPageDashBoard = () => {
   const [showContact, setShowContact] = useState(false);
   return (
-    <div className="w-full  h-screen mx-0 mt-0 bg-[url('/img/hotel_outdoor.jpg')] bg-center bg-cover ">
+    <div className="w-full  h-screen mx-0 mt-0 bg-[url('/img/IMG-20230104-WA0007.jpg')] bg-center bg-cover ">
       <div className="w-full h-full m-0 p-0  ">
         <div className="px-3 md:px-12  md:mt-auto pt-20 md:pt-24 w-full h-full bg-transparent bg-gradient-to-t md:bg-gradient-to-r from-slate-800 ">
           <h1 className=" p-3  text-orange-500 m-0 font-bold md:text-left  text-7xl md:text-8xl">
-            Pilgrims Intransit
+            Pilgrims In Transit
           </h1>
           <h1 className="p-3 text-white m-0  font-bold md:text-left   text-5xl md:text-7xl">
-            Guest House
+            Rest
           </h1>
           <h1 className="p-3 text-white m-0  font-bold md:text-left  text-5xl md:text-7xl">
             & Event Center
@@ -23,7 +23,7 @@ const LandingPageDashBoard = () => {
           </p>
 
           <a
-            className="mx-3 my-12 py-4 px-16 bg-orange-600 text-xl font-roboto text-white hover:bg-indigo-800 cursor-pointer rounded-md transition-all "
+            className="mx-3 my-12 py-4 px-16 bg-orange-600 text-xl font-roboto text-white hover:bg-orange-800 cursor-pointer rounded-md transition-all "
             onClick={() => setShowContact(!showContact)}
           >
             Contact Us

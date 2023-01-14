@@ -17,7 +17,7 @@ const Footer = () => {
           Email: officialemail@gmail.com
         </a>
         <a href="" className="  text-xl text-white font-roboto">
-          Phone: +2349073077717
+          Phone: +234 803 325 8643
         </a>
       </ul>
 
