@@ -2,7 +2,7 @@ const ROUTES = {
   HOME: "/",
   SERVICE: "#service",
   FEATURES: "#features",
-  GALLERY: "/gallery",
+  GALLERY: "gallery",
   CONTACT: "contact",
   COMPANY: "company",
 
