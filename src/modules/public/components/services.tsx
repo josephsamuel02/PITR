@@ -62,7 +62,7 @@ const Services = () => {
             <div className="w-11/12 h-72  mx-auto my-12 md:my-2 p-0 flex flex-col-reverse bg-[url('/img/3.jpg')] bg-center bg-cover content-none ">
               <div className=" mx-0 px-4 w-full bg-opacity-20 bg-slate-900 ">
                 <p className=" m-0 my-3 text-xl font-courgette font-bold hover:text-4xl transition-all text-white  ">
-                  600 Capacity Event Hall
+                  300 Capacity Event Hall
                 </p>
               </div>
             </div>
@@ -79,7 +79,7 @@ const Services = () => {
             <div className=" w-11/12 h-72 md:w-full md:h-full  mx-auto my-0 p-0 flex flex-col-reverse bg-[url('/img/IMG-20230104-WA0013.jpg')] bg-center bg-cover ">
               <div className="mx-0 px-4 w-full bg-opacity-20 bg-slate-900 ">
                 <p className=" m-0 my-3 text-xl font-courgette font-bold hover:text-4xl transition-all text-white  ">
-                  1000 Capacity Space
+                  500 Capacity Space
                 </p>
               </div>
             </div>
